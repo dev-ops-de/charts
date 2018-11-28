@@ -4,7 +4,7 @@
 replicaCount: 1
 image:
   repository: diceone/devops
-  tag: stable
+  tag: latest
   pullPolicy: IfNotPresent
 service:
   name: devopsde
