@@ -7,7 +7,7 @@ image:
   tag: latest
   pullPolicy: IfNotPresent
 service:
-  name: dev-ops-de-live
+  name: live
   type: ClusterIP
   externalPort: 80
   internalPort: 80
