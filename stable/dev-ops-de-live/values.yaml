@@ -5,7 +5,7 @@ replicaCount: 2
 image:
   repository: diceone/devops
   tag: latest
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 service:
   name: live
   type: ClusterIP
